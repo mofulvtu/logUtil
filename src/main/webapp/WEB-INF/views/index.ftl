@@ -15,7 +15,6 @@
 
 
             <input type="text" class="datepicker" placeholder="请选择日期"/>
-            <input type="text" class="datepicker" placeholder="请选择日期"/>
 </body>
 <script type="text/javascript">
     $(function () {
