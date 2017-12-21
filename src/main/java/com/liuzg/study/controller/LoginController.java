@@ -33,7 +33,9 @@ public class LoginController {
 		session.setAttribute("userName",666);
 		UserBean userBean=userService.Login(user.getUsername(), user.getUserpwd());
 		model.addAttribute("user",userBean);
-		return "/index";
+		model.addAttribute("tag","tag");
+//		return "/index";
+		return "/glDatePicker";
 	}
 
 

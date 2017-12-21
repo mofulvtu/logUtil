@@ -6,6 +6,7 @@
 
     <h2>登陆成功！ ${user.username}!</h2>
     <a href="${base}/delete">查询个人信息</a>
+    ${base}
 </div>
 </body>
 </html>
